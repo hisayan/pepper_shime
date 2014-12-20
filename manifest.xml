@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="1.4.7" uuid="sample1-c647e4">
+ <names>
+  <name lang="en_US">Sample1</name>
+  <name lang="ja_JP">ポケットフルセグ</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">This is a sales commercial application used for ShowTime. The Softbank goods which this application introduces is Pocket Television.
+Play Time: 120 seconds</description>
+  <description lang="ja_JP">ShowTimeで使用するセールスアプリ。ソフトバンクの販売するポケットフルセグについて紹介します。
+再生時間：120秒</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Pocket Television</name>
+    <name lang="ja_JP">ポケットフルセグ</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement maxVersion="1.22" minVersion="1.22.3"/>
+  <naoqiRequirement maxVersion="2" minVersion="2.0"/>
+  <robotRequirement model="JULIETTE_Y20"/>
+ </requirements>
+</package>
